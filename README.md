@@ -7,3 +7,8 @@ Made some design patterns in c++
 • implement the Prototype design pattern;
 • implement the Memento pattern; and
 • integrate the patterns.
+
+# How to run
+- Install C++ compilers, gcc and GDB
+- Download all files
+- Run Main.cpp in vs code or the like
