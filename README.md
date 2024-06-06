@@ -51,7 +51,11 @@ Can be run in vs code or terminal.
 
 ## 🏃🏻‍♂️ Running The Project
 
-1. Run the ThreadDemoCounter.java file for task 1
+1. Fork the repo
+2. Open the terminal in the Code project directory.
+3. Run the command 'make clean'. This will clean any linker files. The behind the scenes is: rm -f *.o main
+4. Run the command 'make'. This will build all linker files (.o files). The command behind the scenes is: g++ -g -o main *.o -std=c++11 and g++ -c -g *.cpp
+5. Run the command 'make'. This will run the command in terminal. The command behind the scenes is: ./main
 
 ---
 
