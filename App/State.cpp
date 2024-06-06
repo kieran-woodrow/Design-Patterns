@@ -31,12 +31,12 @@ void State::setHPChanged(int h)
 
 void State::sethuntingMethodChanged(string h)
 {
-    huntingMethodChanged = h
+    huntingMethodChanged = h;
 }
 
 void State::setSpecialityChanged(string s)
 {
-    SpecialityChanged = s
+    SpecialityChanged = s;
 }
 
 void State::setDamageChanged(int d)
